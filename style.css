@@ -1,0 +1,158 @@
+* {
+  outline: 1px solid red;
+}
+
+.page {
+  max-width: 1560px;
+  /* min-width: 1400px; */
+  margin: 0 auto;
+  padding: 0;
+
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.masters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px 33px;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(24px, 2.5vw, 34px);
+  text-transform: uppercase;
+  color: #636363;
+  letter-spacing: 1.4px;
+}
+
+.masters-header__list {
+  display: flex;
+  gap: 33px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.masters-header__link {
+  text-decoration: none;
+  font-size: clamp(16px, 2.5vw, 25px);
+  color: #636363;
+  font-weight: 700;
+}
+
+/* master */
+
+.masters {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px 25px;
+  padding-top: 75px;
+}
+
+.master__header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 45px;
+}
+
+.master__photo {
+  box-sizing: border-box;
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  border: 3px solid #fe7e00;
+  overflow: hidden;
+}
+
+.master__info {
+    max-width: 444px;
+}
+
+.master__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.master__name {
+  margin: 0 13px 0 0;
+  font-size: 26px;
+  color: #636363;
+  font-weight: 700;
+}
+
+.master__verification {
+  margin-right: 7px;
+}
+
+.master__status {
+  padding: 7px 13px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #636363;
+  background-color: #ececec;
+}
+
+.master__rating {
+  margin-top: 15px;
+}
+
+.master__number-reviews {
+  position: relative;
+  margin: 20px 0 0 0;
+  padding-left: 23px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.master__number-reviews::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 16px;
+  background-image: url(./reviews.svg);
+  background-repeat: no-repeat;
+}
+
+.master__description {
+  margin: 15px 0 0 0;
+  font-size: 17px;
+  color: #636363;
+   -webkit-line-clamp: 2; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; 
+}
+
+.master__portfolio {
+  display: block;
+  margin-top: 33px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.master__portfolio-list {
+  display: flex;
+  align-content: center;
+  gap: 13px;
+  margin-top: 27px;
+}
+
+.master__portfolio-item {
+  width: 220px;
+  height: 220px;
+}
+
+@media (max-width: 1400px) {
+}
