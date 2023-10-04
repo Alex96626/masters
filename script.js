@@ -2,29 +2,41 @@ document.addEventListener('DOMContentLoaded', ()=> {
     
      const portfolioSliderSmall = new Swiper('.portfolio-slider-small', {
        // Default parameters
-       slidesPerView: 3,
-       spaceBetween: 13,
+
        loop: true,
        autoplay: true,
        delay: 50,
        // Responsive breakpoints
-       //   breakpoints: {
-       //     // when window width is >= 320px
-       //     320: {
-       //       slidesPerView: 2,
-       //       spaceBetween: 20,
-       //     },
-       //     // when window width is >= 480px
-       //     480: {
-       //       slidesPerView: 3,
-       //       spaceBetween: 30,
-       //     },
-       //     // when window width is >= 640px
-       //     640: {
-       //       slidesPerView: 4,
-       //       spaceBetween: 40,
-       //     },
-       //   },
+       breakpoints: {
+         680: {
+           slidesPerView: 3,
+           spaceBetween: 13,
+         },
+
+         450: {
+           slidesPerView: 2,
+           spaceBetween: 13,
+         },
+
+         320: {
+           slidesPerView: 1,
+         },
+         //     // when window width is >= 320px
+         //     320: {
+         //       slidesPerView: 2,
+         //       spaceBetween: 20,
+         //     },
+         //     // when window width is >= 480px
+         //     480: {
+         //       slidesPerView: 3,
+         //       spaceBetween: 30,
+         //     },
+         //     // when window width is >= 640px
+         //     640: {
+         //       slidesPerView: 4,
+         //       spaceBetween: 40,
+         //     },
+       },
      });
 
     const swiper = new Swiper('#portfolio-slider-big', {

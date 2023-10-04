@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 .page {
   max-width: 1560px;
@@ -54,6 +54,7 @@
 
 .master_short {
   max-width: 682px;
+  min-width: 100%;
 }
 
 .master_detail {
@@ -67,12 +68,13 @@
 .master__header {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 45px;
 }
 
 .master__header_detail {
   width: 100%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .master__photo {
@@ -95,6 +97,7 @@
 
 .master__info_detail {
   flex: 1;
+  max-width: 100%;
 }
 
 .master__wrapper {
@@ -202,7 +205,7 @@
 }
 
 .master__specializations-list {
-  min-width: 733px;
+  min-width: 880px;
   overflow: auto;
 }
 
@@ -263,4 +266,10 @@
   font-size: 18px;
   color: #7c7c7c;
   cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .masters-header__list {
+    gap: 15px;
+  }
 }
