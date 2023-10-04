@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
          320: {
            slidesPerView: 1,
+           spaceBetween: 13,
          },
          //     // when window width is >= 320px
          //     320: {

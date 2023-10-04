@@ -196,10 +196,12 @@
 
 .master__portfolio-item {
   width: 220px;
+  max-width: 220px;
   height: 220px;
 }
 .master__portfolio-item_big {
   width: 304px;
+  max-width: 304px;
   height: 304px;
 }
 
