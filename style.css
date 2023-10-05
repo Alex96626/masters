@@ -4,9 +4,8 @@
 
 .page {
   max-width: 1560px;
-  /* min-width: 1400px; */
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 
   font-family: 'Roboto', Arial, sans-serif;
 }
@@ -53,7 +52,8 @@
 }
 
 .master_short {
-  max-width: 682px;
+  width: 682px;
+  max-width: 100%;
 }
 
 .master_detail {
@@ -137,6 +137,29 @@
   margin-top: 15px;
 }
 
+.master__legal-form, .master__address {
+  font-size: 21px;
+  color: #636363;
+}
+
+.master__address {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 23px;
+}
+
+.master__address::after {
+  content: '';
+  width: 20px;
+  height: 27px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('./local.svg');
+  background-repeat: no-repeat;
+}
+
 .master__number-reviews {
   position: relative;
   margin: 20px 0 0 0;
@@ -196,12 +219,12 @@
 
 .master__portfolio-item {
   width: 220px;
-  max-width: 220px;
+  /* max-width: 220px; */
   height: 220px;
 }
 .master__portfolio-item_big {
   width: 304px;
-  max-width: 304px;
+  /* max-width: 304px; */
   height: 304px;
 }
 
