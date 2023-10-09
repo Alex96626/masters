@@ -20,7 +20,7 @@
 
 .title {
   margin: 0;
-  font-size: clamp(24px, 2.5vw, 34px);
+  font-size: clamp(15px, 2.5vw, 34px);
   text-transform: uppercase;
   color: #636363;
   letter-spacing: 1.4px;
@@ -228,9 +228,13 @@
   height: 304px;
 }
 
+.master__specializations-table {
+  overflow: auto;
+}
+
 .master__specializations-list {
   min-width: 880px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .master__specializations-item_secondary {
