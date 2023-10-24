@@ -50,6 +50,75 @@ p {
   box-sizing: border-box;
   height: 44px;
 }
+/* auth-popup */
+
+/* .header__auth-popup {
+  transition: all .1s ease-in-out;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+
+.header__auth-popup-wrapper {
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 6px;
+    padding: 40px;
+        transition: all .1s ease-in-out;
+    background: #fff;
+    position: relative;
+}
+
+.header__auth-popup-close {
+  background: transparent;
+    color: #111;
+    padding: 0;
+    width: 44px;
+    background: #fff!important;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    color: #111;
+    cursor: pointer;
+    display: inline-flex;
+    height: 44px;
+    justify-content: center;
+    outline: none;
+    font: inherit;
+}
+
+.header__auth-popup-close-svg {
+  fill: currentColor;
+}
+
+.header__auth-popup-title {
+    font-weight: 700;
+        font-size: 24px;
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+
+.header__auth-popup-input {
+      height: 56px;
+    width: 100%;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: 0;
+    padding: 16px 32px 0 16px;
+} */
 
 .masters-header-search {
   width: 100%;
@@ -96,7 +165,7 @@ p {
   display: grid;
   grid-gap: 12px;
   grid-row-gap: 0;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 0;
   margin: 0;
   list-style-type: none;
